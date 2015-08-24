@@ -1,4 +1,4 @@
-# Map-Tracker-Path-Finder
+# Map Tracker and Path Finder
 
 • Android application that can track your location on Google Maps and calculate the total
 distance from your starting point and your current location.
