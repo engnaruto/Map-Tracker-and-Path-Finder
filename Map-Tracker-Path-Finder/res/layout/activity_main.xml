@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/r"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.map.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/mapTracker"
+        style="float: right;"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/y"
+        android:text="Map Tracker"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/pathFinder"
+        style="float: right;"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/x"
+        android:text="Path Finder"
+        android:textSize="25sp" />
+
+</LinearLayout>
